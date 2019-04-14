@@ -5,7 +5,8 @@ This repository contains a flutter app for reproducing [rxdart's issue](https://
 ## Reproduction steps
 
 1. Clone this repository
-1. Run the flutter app (I used Android Studio & Android Emulator)
+1. Run the flutter app (I used Android Studio and Android Emulator with the following AVD)
+![Screenshot](avd.png)
 1. Click the button `Open another screen`
 1. The following error is shown
    - `textColor: Theme.of(context).accentColor` is required to reproduce the issue, but I'm not sure the reason ...
