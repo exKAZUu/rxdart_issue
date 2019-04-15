@@ -9,7 +9,7 @@ This repository contains a flutter app for reproducing [rxdart's issue](https://
 ![Screenshot](avd.png)
 1. Click the button `Open another screen` on `HomeScreen` in the app
 1. The following error is shown on the console
-   - `textColor: Theme.of(context).accentColor` is required to reproduce the issue, but I'm not sure the reason ...
+   - `textColor: Theme.of(context).accentColor` ([link](https://github.com/exKAZUu/rxdart_issue/blob/master/lib/main.dart#L43)) is required to reproduce the issue, but I'm not sure the reason ...
 
 ```
 E/flutter (15609): [ERROR:flutter/lib/ui/ui_dart_state.cc(148)] Unhandled Exception: NoSuchMethodError: The method 'cancel' was called on null.
